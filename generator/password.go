@@ -3,7 +3,7 @@ package password
 import "github.com/baldavenger78/password.go"
 
 func GeneratePlainTextPassword() (string, error) {
-	pass, err := passwordg.Generate(10, 2, 0, false, false)
+	pass, err := password.Generate(10, 2, 0, false, false)
 	if err != nil {
 		return "", err
 	}
