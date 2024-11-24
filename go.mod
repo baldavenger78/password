@@ -6,7 +6,7 @@ require (
 	
 )
 require (
-	github.com/Azure/go-ansiterm // indirect
+	github.com/Azure/go-ansiterm v1.2.3 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/VictoriaMetrics/fastcache v1.12.0 // indirect
