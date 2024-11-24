@@ -1,4 +1,4 @@
-MAIN=password/generator/main.go
+MAIN=password/main.go
 BINARY=password
 DOCKER_IMAGE=baldavenger78/password
 ALL_OSVERSIONS.windows := 1809 1909 2004 20H2 ltsc2022
