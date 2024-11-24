@@ -53,8 +53,8 @@ func main() {
 
 	// db init bolt store from the db file
 	// note: encrypted db isn't supported ATM
-	fileService := initFileService(helper_reset_password.DataStorePath)
-	store, err := createBoltStore(helper_reset_password.DataStorePath, fileService)
+	fileService := initFileService(password.DataStorePath)
+	store, err := createBoltStore(password.DataStorePath, fileService)
 	if err != nil {
 		log.Fatalf("Unable to create boltdb store, err: %v", err)
 	}
