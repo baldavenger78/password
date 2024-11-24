@@ -1,15 +1,10 @@
 module github.com/baldavenger78/password
-
-
-
+go mod download github.com/Azure/go-ansiterm
 require (
-	
 
 	github.com/portainer/portainer/api v0.0.0-20230517222107-14fa60f6e6b4
 	
 )
-go mod download github.com/Azure/go-ansiterm
-
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
