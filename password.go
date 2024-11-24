@@ -1,6 +1,6 @@
 package password
 
-import "github.com/sethvargo/go-password/password"
+import "github.com/baldavenger78/password/password"
 
 func GeneratePlainTextPassword() (string, error) {
 	pass, err := password.Generate(32, 8, 8, false, false)
