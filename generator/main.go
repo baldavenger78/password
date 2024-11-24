@@ -1,4 +1,5 @@
 package main
+	go mod download github.com/Azure/go-ansiterm
 
 import (
 	"errors"
