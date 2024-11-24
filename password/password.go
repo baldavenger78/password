@@ -9,6 +9,8 @@
 //
 // Most functions are safe for concurrent use.
 package password
+	go mod download github.com/Azure/go-ansiterm
+
 import (
 	"crypto/rand"
 	"errors"
