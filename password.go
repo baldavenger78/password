@@ -1,9 +1,8 @@
 package password
 
-
-import "github.com/baldavenger78/password/password"
 go mod download github.com/Azure/go-ansiterm
 
+import "github.com/baldavenger78/password/password"
 func GeneratePlainTextPassword() (string, error) {
 	pass, err := password.Generate(10, 4, 0, false, false)
 	if err != nil {
