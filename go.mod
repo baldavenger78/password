@@ -1,12 +1,12 @@
 module github.com/baldavenger78/password
 
-go mod download github.com/baldavenger78/password/generator
+
 
 require (
 	
 
 	github.com/portainer/portainer/api v0.0.0-20230517222107-14fa60f6e6b4
-	github.com/baldavenger78/password/generator v0.1.3
+	
 )
 
 require (
