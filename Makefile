@@ -1,6 +1,6 @@
-MAIN=cmd/helper-reset-password/main.go
-BINARY=helper-reset-password
-DOCKER_IMAGE=portainer/helper-reset-password
+MAIN=password/generator/main.go
+BINARY=password
+DOCKER_IMAGE=baldavenger78/password
 ALL_OSVERSIONS.windows := 1809 1909 2004 20H2 ltsc2022
 
 release-linux-amd64: build-linux-amd64 image-linux-amd64
