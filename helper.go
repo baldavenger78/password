@@ -1,4 +1,4 @@
-package helper_reset_password
+package helper
 
 const (
 	DataStorePath = "/data"
