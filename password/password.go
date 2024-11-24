@@ -9,7 +9,6 @@
 //
 // Most functions are safe for concurrent use.
 package password
-go mod download github.com/baldavenger78/password/generator
 import (
 	"crypto/rand"
 	"errors"
