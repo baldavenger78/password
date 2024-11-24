@@ -8,7 +8,7 @@ import (
 	"os"
 	"path"
 
-	helper_reset_password "github.com/baldavenger78/password"
+	password "github.com/baldavenger78/password"
 	"github.com/baldavenger78/password/password"
 	portainer "github.com/portainer/portainer/api"
 	"github.com/portainer/portainer/api/crypto"
@@ -43,7 +43,7 @@ func main() {
 		log.Fatalf("Invalid CLI usage! err: %s", err)
 	}
 	// try to locate the db file
-	if _, err := os.Stat(path.Join(helper_reset_password.DataStorePath, "portainer.db")); err != nil {
+	if _, err := os.Stat(path.Join(password.DataStorePath, "portainer.db")); err != nil {
 		if os.IsNotExist(err) {
 			log.Fatalln("Unable to locate /data/portainer.db on disk")
 		}
@@ -62,7 +62,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Unable to open the database, err: %v", err)
 	} else if isNew {
-		log.Fatalf("Data store not found at %s", helper_reset_password.DataStorePath)
+		log.Fatalf("Data store not found at %s", password.DataStorePath)
 	}
 	defer store.Close()
 
