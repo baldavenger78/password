@@ -1,5 +1,5 @@
 module github.com/baldavenger78/password
-go v1.20 
+go 1.20 
 
 require (
 
