@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	go mod download github.com/baldavenger78/password/generator
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
