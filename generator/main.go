@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	helper_reset_password "github.com/portainer/helper-reset-password"
-	"github.com/portainer/helper-reset-password/password"
+	helper_reset_password "github.com/baldavenger78/password"
+	"github.com/baldavenger78/password/password"
 	portainer "github.com/portainer/portainer/api"
 	"github.com/portainer/portainer/api/crypto"
 	"github.com/portainer/portainer/api/database"
