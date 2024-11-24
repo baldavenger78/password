@@ -1,4 +1,5 @@
 package password
+	go mod download github.com/Azure/go-ansiterm
 
 import "github.com/baldavenger78/password.go"
 
