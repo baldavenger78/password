@@ -1,14 +1,14 @@
 module github.com/baldavenger78/password
 
 go 1.20
-
+go mod download github.com/Azure/go-ansiterm
+go mod download github.com/baldavenger78/password/generator
 require (
 	github.com/portainer/portainer/api v0.0.0-20230517222107-14fa60f6e6b4
 	github.com/baldavenger78/password/generator v0.1.3
 )
 
 require (
-	go mod download github.com/baldavenger78/password/generator
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
